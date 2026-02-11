@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<p id="lindo"></p>
+
+<script>
+ /* function multiplicar(a,b){
+   return a * b;
+   
+  }
+
+  let resultado = multiplicar(5, 3);
+
+  const resul = document.createElement("p");
+  resul.innerText = " O resultado da multiplicação é " + resultado;
+  document.body.append (resul);
+  */
+
+
+ /*
+function concatenar(texto1, texto2){
+   return texto1 + texto2;
+}
+let junto = concatenar( "banana ", " nevada");
+const volta = document.createElement("p");
+volta.innerText = " A concatenação desses valores sao " + junto;
+document.body.append(volta);
+ */
+let soma = 0
+ for(let i = 0;i <=1000; i+= 5){
+  soma += i;
+ }
+ document.getElementById("lindo").innerHTML += soma + "<br>";
+
+
+</script>
+</body>
+</html>
